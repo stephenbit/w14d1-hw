@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-function Film() {
+function Film({name, url}) {
     return (
         <li>
-            <p>A Film</p>
+        <a href={url}>{name}</a>   
         </li>
     );
 }
